@@ -1,0 +1,149 @@
+@import url("reset.css");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Poppins:wght@400;600;700&family=Roboto:wght@500;700&family=Work+Sans:wght@400;500;600;700&display=swap");
+
+/* 
+
+font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Work Sans', sans-serif;
+
+*/
+
+:root {
+    --dark-color: #212529;
+    --honey-color: #ffb742;
+    --box-bg: rgba(56, 62, 69, 0.44);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    background: var(--dark-color);
+}
+
+.container {
+    max-width: 1342px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Header */
+#header .container {
+    margin-top: 17px;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+nav ul {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+nav ul li a {
+    color: #fff;
+}
+
+nav ul li:first-child a {
+    color: var(--honey-color);
+}
+
+.hire-me--button {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 12px 26px;
+    border: 2px solid var(--honey-color);
+    border-radius: 50px;
+    background: var(--honey-color);
+}
+
+.hire-me--button a {
+    color: var(--dark-color);
+}
+
+/* Main */
+
+#hello-content {
+    margin-top: 108px;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    color: #fff;
+}
+
+#hello-content span {
+    border-bottom: 2.5px solid var(--honey-color);
+    color: var(--honey-color);
+}
+
+#hello-content h1 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 51px;
+}
+
+#hello-content h2 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 91px;
+}
+
+#hello-content p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 51px;
+}
+
+#hello-content img {
+    margin-top: 22px;
+}
+
+#counter-content {
+    margin-top: 136px;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.counter-box {
+    padding: 0 35px 0 30px;
+    background: var(--box-bg);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 416px;
+    height: 120px;
+}
+
+.counter-text {
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+}
+
+.counter-text h1 {
+    color: var(--honey-color);
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.counter-text p {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+/* Footer */
