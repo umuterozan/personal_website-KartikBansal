@@ -1,5 +1,5 @@
-@import url("reset.css");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Poppins:wght@400;600;700&family=Roboto:wght@500;700&family=Work+Sans:wght@400;500;600;700&display=swap");
+@import "_reset.css";
 
 /* 
 
@@ -412,6 +412,7 @@ nav ul li:first-child a {
     text-align: center;
     max-width: 1116px;
     margin: 0 auto;
+    transform: translateY(50%);
 }
 
 #footer .box h1 {
